@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(227, 233, 147);
+}
+table {
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 3px;
+  background-color: white;
+}
+caption {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+tbody {
+  background-color: rgb(255, 255, 255);
+}
+thead {
+  background-color: white;
+}
+td {
+  background-color: white;
+}
