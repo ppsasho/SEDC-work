@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="tables.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tables</title>
+  </head>
+  <body>
+    <header>
+      <h1>Tables</h1>
+    </header>
+
+    <!--Raspored-->
+    
+    <table border="1">
+      <thead>
+        <caption>
+          My Time table
+        </caption>
+        <tr>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>6:30-7:00</td>
+          <td rowspan="2">10:00-11:00</td>
+          <th colspan="3" rowspan="2">Cancelled</td>
+        </tr>
+        <tr>
+          <td>7:00-7:30</td>
+        </tr>
+        <tr>
+          <td>7:30-8:00</td>
+          <td rowspan="3">11:00-2:00</td>
+          <td colspan="2" rowspan="3">11:00-3:00</td>
+          <td>11:00-11:30</td>
+        </tr>
+        <tr>
+          <td>8:00-8:30</td>
+          <td rowspan="2">11:30-12:30</td>
+        </tr>
+        <tr>
+          <td>8:30-9:00</td>
+        </tr>
+        <tr>
+          <td>9:00-9:30</td>
+          <td>2:00-2:30</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>9:30-10:00</td>
+          <td>2:30-3:00</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+
+    <!--Table with Footer-->
+
+    <table border="1">
+      <caption>
+        Employee vacation days
+      </caption>
+      <thead>
+        <th>First and last name</th>
+        <th>Month</th>
+        <th>Vacation days</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="3">Bob Bobsky</td>
+          <td>April</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>May</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>June</td>
+          <td>10</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Bob Bobsky</td>
+          <td>Vacation 2023</td>
+          <td>17</td>
+        </tr>
+      </tfoot>
+    </table>
+    <br>
+    <!--Column span-->
+    <table border="2">
+      <caption>School schedule V2</caption>
+        <thead>
+          <th>Week day/Class</th>
+          <th>8am</th>
+          <th>9am</th>
+          <th>10am</th>
+          <th>11am</th>
+          <th>12am</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td >Monday</td>
+            <td colspan="2">Math</td>
+            <td>Biology</td>
+            <td colspan="2">Chemistry</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>English</td>
+            <td>Physics</td>
+            <td colspan="3">Gym</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+    </table>
+    <br>
+    
+    <!--Row Span-->
+    
+    <table border="1">
+      <caption>Daily Program</caption>
+      <thead>
+        <th>Hours/Program</th>
+        <th>CNN</th>
+        <th>BBC</th>
+        <th>HBO</th>
+
+      </thead>
+      <tbody>
+        <tr>
+          <td>6pm-7pm</td>
+          <td rowspan="2" style="color: red;background-color: rgb(75, 68, 68);">The Lord of the Rings</td>
+          <td>Comedy central</td>
+          <td>NBA</td>
+        </tr>
+        <tr>
+          <td>7pm-8pm</td>
+          <td>News</td>
+          <td>Weather</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    
+    <!--Row Span & Col Span-->
+
+    <table border="2">
+      <caption>Col and Row span</caption>
+      <thead>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>8am-9am</td>
+          <td rowspan="2">Math</td>
+          <td rowspan="2" colspan="2">Science</td>
+        </tr>
+        <tr>
+          <td>9am-10am</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+      
+    <!--Row Span & Col Span with img-->
+    
+    <table border="2">
+      <caption>Col and Row span with images</caption>
+      <thead>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>8am-9am</td>
+          <td rowspan="2"><img style="height: 90px" src="img/math.jfif" alt=""></td>
+          <td rowspan="2" colspan="2"><img style="height: 90px" src="img/science.jfif" alt=""></td>
+        </tr>
+        <tr>
+          <td>9am-10am</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
