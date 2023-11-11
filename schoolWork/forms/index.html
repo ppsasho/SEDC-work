@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="forms.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <header><h1>Forms</h1></header>
+    <form action="" method="post">
+      <label for="username">Username: </label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        required
+        placeholder="Enter Username"
+      />&nbsp;&nbsp;
+      <label for="password">Password: </label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        required
+        placeholder="Enter Password"
+      /><br /><br />
+      <input type="submit" value="Log In" />
+    </form>
+    <br /><br />
+
+    <form action="" method="post">
+      <label for="story">Tell us a story: </label>
+      <br />
+      <textarea name="story" id="story" cols="35" rows="15"></textarea>
+    </form>
+
+    <!--Doesn't try to send to server-->
+    <button type="submit">Send message</button>
+    <br /><br />
+
+    <form action="" method="post">
+      <fieldset>
+        <legend>Radio Inputs</legend>
+        <p>Please select your favorite music genre</p>
+        <input type="radio" name="music-Genre" id="rock" value="rock" />
+        <label for="rock">Rock</label>
+        <input type="radio" name="music-Genre" id="pop" value="Pop" />
+        <label for="pop">Pop</label>
+        <input type="radio" name="music-Genre" id="jazz" value="Jazz" />
+        <label for="jazz">Jazz</label>
+        <input type="radio" name="music-Genre" id="metal" value="Metal" />
+        <label for="metal">Metal</label>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Checbox Input</legend>
+        <p>Please select your favorite music streaming service(s):</p>
+        <input type="checkbox" name="service" id="apple" value="Apple-music" />
+        <label for="apple">Apple Music</label>
+        <input
+          type="checkbox"
+          name="service"
+          id="spotify"
+          value="Spotify-music"
+        />
+        <label for="spotify">Spotify</label>
+        <input
+          type="checkbox"
+          name="service"
+          id="youtube"
+          value="Youtube-music"
+        />
+        <label for="youtube">Youtube Music</label>
+      </fieldset>
+
+      <br /><br />
+
+      <fieldset>
+        <legend>Select input</legend>
+        <label for="devices">What device do you listen to music on</label>
+        <select name="device" id="devices">
+          <option value="" selected disabled>Please select</option>
+          <option value="Phone">Phone</option>
+          <option value="Desktop">Desktop PC</option>
+          <option value="recordPlayer">Record Player</option>
+        </select>
+
+        <br /><br />
+
+        <label for="instruments">Do you play any of these instruments?</label>
+        <select name="instruments" id="instruments" multiple>
+          <option value="Guitar">Guitar</option>
+          <option value="Drums">Drums</option>
+          <option value="Keyboard">Keyboard</option>
+          <option value="Piano">Piano</option>
+        </select>
+      </fieldset>
+
+      <br /><br />
+
+      <label for="song">Upload your song in .mp3 format:</label>
+      <input type="file" name="user-song" id="user-song" />
+
+      <br /><br />
+
+      <input type="hidden" name="form" value="music-form" />
+
+      <br /><br />
+    </form>
+
+    <form action="" method="post">
+      <label for="email">Email</label>
+      <input type="email" name="personal-email" id="email" />
+
+      <br /><br />
+
+      <label for="website">Your Website</label>
+      <input type="url" name="user-website" id="website" />
+
+      <br /><br />
+
+      <label for="phone">Phone number</label>
+      <input type="tel" name="telepohone-number" id="phone" />
+
+      <br /><br />
+
+      <label for="classes">Number of classes (5-10)</label>
+      <input
+        type="number"
+        name="numberOfClasses"
+        id="classes"
+        min="5"
+        max="10"
+      />
+
+      <br /><br />
+
+      <label for="birthday">Birthday</label>
+      <input type="date" name="user-birthday" id="birthday" />
+
+      <br /><br />
+
+      <label for="timeframe">Book a timeframe</label>
+      <input type="time" name="class-time" id="timeframe" />
+
+      <br /><br />
+
+      <label for="search">Search for anything</label>
+      <input type="search" name="Search" id="search" />
+
+      <br /><br />
+
+      <label for="color">Choose your favorite color: </label>
+      <input type="color" name="favorite-color" id="color" />
+
+      <br /><br />
+
+      <label for="volume">Volume: </label>
+      <input type="range" name="volume-control" id="volume" min="0" max="100" />
+
+      <br /><br />
+
+      <button type="submit">Send</button>
+    </form>
+
+    <br /><br />
+
+    <form action="" method="post">
+      <fieldset>
+        <label for="username">Name</label>
+        <input type="text" name="name" id="username" />
+        <br /><br />
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" />
+        <br /><br />
+        <label for="gender">Gender</label>
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" id="Male" value="Male" />
+        <label for="Female">Female</label>
+        <input type="radio" name="gender" id="Female" />
+        <br /><br />
+        <label for="continent">Continent</label>
+        <select name="continent" id="continent">
+          <option value="" selected disabled placeholder="please select">
+            Please select
+          </option>
+          <option value="Europe">Europe</option>
+          <option value="Asia">Asia</option>
+          <option value="America">America</option>
+        </select>
+        <br /><br />
+        <label for="user-meals">Meals</label>
+        <input type="checkbox" name="user-breakfast" id="breakfast" />
+        <label for="breakfast">Breakfast</label>
+        <input type="checkbox" name="user-lunch" id="lunch" />
+        <label for="lunch">Lunch</label>
+        <input type="checkbox" name="user-dinner" id="dinner" />
+        <label for="dinner">Dinner</label>
+
+        <br /><br />
+
+        <label for="story">Remark</label>
+        <textarea name="story" id="story" cols="30" rows="10"></textarea>
+      </fieldset>
+    </form>
+  </body>
+</html>

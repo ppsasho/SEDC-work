@@ -1,0 +1,13 @@
+form {
+  width: fit-content;
+}
+input {
+  padding-right: 10px;
+}
+label {
+  background-color: rgb(173, 166, 179);
+  border: 1px solid black;
+  margin-right: 5px;
+  padding: 3px;
+  border-radius: 7px;
+}
