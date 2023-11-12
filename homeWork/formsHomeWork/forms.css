@@ -1,0 +1,21 @@
+body{
+    background-color: #17252A;
+}
+form{
+    margin-left: 20px;
+    background-color: #887b6c;
+    border: 3px solid black;
+    padding: 10px;
+    width:30%;
+}
+legend{
+    font-family: arial;
+    color: rgb(94, 45, 45);
+    font-weight: bold;
+}
+p{
+    color: rgb(41, 39, 39);
+}
+label{
+    color: rgb(0, 0, 0);
+}
