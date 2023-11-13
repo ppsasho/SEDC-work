@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS styling</title>
+    <style type="text/css">
+      p {
+        background-color: blanchedalmond;
+        width: 60%;
+        border: 2px dashed rgb(160, 13, 13);
+        padding: 3px;
+      }
+      h3 {
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      #specific-article {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <header><h1>This is my website</h1></header>
+    <nav>
+      <ul>
+        <li>
+          <p id="home-p-specific" href="" style="width: fit-content">
+            <a
+              style="padding: none; border-width: none; color: none"
+              href=""
+              id="menu-home"
+              style="color: red"
+              >Home</a
+            >
+          </p>
+        </li>
+        <li><a href="">About</a></li>
+        <li>
+          <a href="" id="contact-nice">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <article style="color: rgb(53, 92, 92)">
+        <h5 id="article-h5">Header</h5>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat
+          asperiores cupiditate quos voluptatem culpa, architecto commodi et
+          facere doloremque aut ratione harum rem eius minus, est temporibus ea
+          odio. Eaque.
+        </p>
+        <br />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+          dicta fugiat sequi, perspiciatis, fugit deserunt aperiam modi sapiente
+          ipsum itaque corporis facere aliquid tenetur odit est, labore cumque
+          distinctio earum!
+        </p>
+      </article>
+      <section id="cool" class="num5">
+        <article>
+          <h3 style="color: yellow">Lorem header first article</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id modi
+            explicabo, doloremque ipsa aliquam temporibus eum voluptatem ducimus
+            magnam laboriosam ratione dolorem a, dolor cum nemo possimus non ex
+            ipsam.
+          </p>
+        </article>
+        <article id="specific-article">
+          <h3>Lorem header second article</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur
+            quod magnam soluta dolore optio, eaque rem quis, delectus animi
+            ullam ipsa fugit illum doloribus maxime. Excepturi deleniti ratione
+            eaque beatae!
+          </p>
+        </article>
+      </section>
+
+      <aside class="last-aside-home">
+        <h4>Aside Element header</h4>
+        <p class="last-aside-home-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+          magnam consequatur quia laborum porro quo impedit. Modi magnam ipsam
+          deserunt quas explicabo quibusdam suscipit nostrum earum, a doloremque
+          reprehenderit animi.
+        </p>
+      </aside>
+
+      <aside>
+        <h2>Lorem</h2>
+        <p>Lorem p</p>
+      </aside>
+    </main>
+    <footer>
+      <p>SEDC 2023</p>
+    </footer>
+  </body>
+</html>

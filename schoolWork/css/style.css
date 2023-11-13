@@ -1,0 +1,32 @@
+* {
+  background-color: rgb(121, 121, 173);
+}
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: azure;
+  color: cadetblue;
+  width: max-content;
+  padding: 5px;
+  border: 7px outset rgba(80, 153, 212, 0.5);
+}
+header {
+  font-kerning: normal;
+  font-variant: small-caps;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: aquamarine;
+}
+#article-h5 {
+  color: brown;
+}
+li > a {
+  color: burlywood;
+}
+section.num5 {
+  color: violet;
+  background-color: grey;
+  width: 50%;
+  border: 10px ridge rgba(43, 175, 131, 0.4);
+  border-radius: 6px;
+  padding: 10px;
+}
