@@ -1,0 +1,38 @@
+body {
+  background-color: #bfcdce;
+}
+h1 {
+  font-family: cursive;
+  color: #a11f3f;
+  font-weight: lighter;
+}
+h3 {
+  font-family: "Courier New", Courier, monospace;
+  font-style: oblique;
+  color: #3c2770;
+  font-size: larger;
+}
+.color-name {
+  background-color: blueviolet;
+  width: fit-content;
+  padding: 5px;
+  color: white;
+}
+.hex-code {
+  color: #2c8585;
+  background-color: #879e82;
+  width: fit-content;
+  padding: 5px;
+}
+.rgb-code {
+  color: rgb(156, 50, 101);
+  background-color: rgba(31, 121, 46, 0.2);
+  padding: 5px;
+  width: fit-content;
+}
+.hsl-code {
+  color: hsla(66, 92%, 70%);
+  background-color: hsla(66, 15%, 54%);
+  width: fit-content;
+  padding: 5px;
+}
