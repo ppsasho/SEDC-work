@@ -1,69 +1,77 @@
-body{
-    background-color: rgb(47, 81, 119);
+body {
+  background-color: rgb(47, 81, 119);
 }
 @font-face {
-    font-family: "Open Sans";
-    src:url("fonts/openSans.woff2") format("woff2");
+  font-family: "Open Sans";
+  src: url("fonts/openSans.woff2") format("woff2");
 }
-h1{
-    font-family: Arial;
-    font-size: 200%;
-    font-weight: bolder;
+h1 {
+  font-family: Arial;
+  font-size: 200%;
+  font-weight: bolder;
+  color: white;
 }
-h3{
-    font-style: oblique;
-    size: 200%;
+h2 {
+  color: white;
 }
-p{
-    font-family: "Open Sans", Arial, sans-serif;
-    max-width: 50%;
-    background-color: whitesmoke;
-    border: 4px groove black;
-    text-transform: capitalize;
-
+h3 {
+  font-style: oblique;
+  size: 200%;
+  color: white;
 }
-.absolute-size{
-    font-size: x-large;
+p {
+  font-family: "Open Sans", Arial, sans-serif;
+  max-width: 50%;
+  background-color: whitesmoke;
+  border: 4px groove black;
+  text-transform: capitalize;
 }
-.relative-size{
-    font-size: smaller;
+.absolute-size {
+  font-size: x-large;
 }
-.relative-length{
-    font-size: 1.1em;
+.relative-size {
+  font-size: smaller;
 }
-.font-weight{
-    font-weight: 900;
+.relative-length {
+  font-size: 1.1em;
 }
-.text-decoration{
-    text-decoration-line: underline line-through;
-    text-decoration-color: rgb(112, 32, 32) ;
-    text-decoration-thickness: from-font;
+.font-weight {
+  font-weight: 900;
 }
-.line-height{
-    line-height: 3em;
+.text-decoration {
+  text-decoration-line: underline line-through;
+  text-decoration-color: rgb(112, 32, 32);
+  text-decoration-thickness: from-font;
 }
-.letter-spacing{
-    letter-spacing: 0.5em;
+.line-height {
+  line-height: 3em;
 }
-.text-align{
-    text-align: right;
+.letter-spacing {
+  letter-spacing: 0.5em;
+}
+.text-align {
+  text-align: right;
 }
 /*Vertical align stuff below*/
 img.top {
-    vertical-align: text-top;
+  vertical-align: text-top;
 }
-  img.bottom {
-    vertical-align: text-bottom;
+img.bottom {
+  vertical-align: text-bottom;
 }
-  img.middle {
-    vertical-align: middle;
+img.middle {
+  vertical-align: middle;
 }
-.text-shadow{
-    text-shadow: 1px 1px 2px black;
+.text-shadow {
+  text-shadow: 1px 1px 2px black;
 }
 .cool::first-line {
-    color: rgb(34, 134, 84);
+  color: rgb(34, 134, 84);
 }
-.cool::first-letter{
-    color: blueviolet;
+.cool::first-letter {
+  color: blueviolet;
+  font-size: 200%;
+}
+div {
+  color: white;
 }

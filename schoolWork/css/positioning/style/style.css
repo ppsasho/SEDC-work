@@ -1,0 +1,49 @@
+section {
+  background-color: orange;
+  border: 2px dotted blue;
+  padding: 20px;
+  margin: 60px;
+}
+span {
+  display: inline-block;
+  border: 2px solid black;
+}
+
+#relative {
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
+#absolute-parent {
+  position: relative;
+  padding: 80px, 50px;
+}
+/*positons it*/
+#absolute {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#fixed {
+  position: fixed;
+  bottom: 20px;
+
+  right: 50%;
+  background-color: grey;
+  z-index: 99;
+}
+
+article {
+  border: 2px ridge yellowgreen;
+  padding: 20px;
+}
+article,
+h2 {
+  position: sticky;
+  top: 0;
+  background-color: rgb(135, 48, 216, 0.3);
+}
+
+#float {
+  float: left;
+}

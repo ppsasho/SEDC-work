@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(102, 100, 100);
+  color: white;
+}
+h2::before {
+  content: "Web Development: ";
+  background-color: rgba(255, 255, 0, 0.3);
+}
+h2::after {
+  content: " G3";
+  background-color: rgb(3, 253, 253, 0.3);
+}
+p::first-line {
+  color: rgb(56, 19, 160);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+p::first-letter {
+  color: bisque;
+  font-size: xx-large;
+}
+.box {
+  background-color: red;
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+.box::after {
+  content: "wee";
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  background-color: rgb(34, 0, 128);
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
