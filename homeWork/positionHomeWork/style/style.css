@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(26, 26, 26);
+}
+*{
+    box-sizing: content-box;
+}
+.main-box{
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 475px;
+    height: 495px;
+    border: 5px solid rgb(69, 58, 54);
+}
+.grey-box{
+    position: absolute;
+    float: left;
+    background-color: rgb(254, 249, 230);
+    width: 125px;
+    height: 150px;
+    border-right: 10px solid rgb(69, 58, 54);
+    border-bottom: 10px solid rgb(69, 58, 54);
+}
+.red-box{
+    position: relative;
+    left: 135px;
+    background-color: rgb(236, 73, 56);
+    width: 340px;
+    height: 355px;
+    border-bottom: 10px solid rgb(69, 58, 54);
+}
+#grey-box2{
+    position:relative;
+    bottom: 215px;
+    height: 185px;
+    border-top: 20px solid rgb(69, 58, 54);
+}
+.blue-box{
+    position: relative;
+    background-color: rgb(64, 156, 197);
+    width: 125px;
+    height: 130px;
+    border-right: 10px solid rgb(69, 58, 54);
+}
+.grey-box3{
+    position: relative;
+    float: left;
+    width: 315px;
+    height: 130px;
+    bottom: 130px;
+    background-color: rgb(254, 249, 230);
+    border-right: 10px solid rgb(69, 58, 54);
+}
+.grey-box4{
+    position: relative;
+    float: inline-end;
+    background-color: rgb(254, 249, 230);
+    border-bottom: 10px solid rgb(69, 58, 54);
+    width: 16px;
+    height: 55px;
+    bottom: 260px;
+}
+.yellow-box{
+    position: relative;
+    float: right;
+    background-color: rgb(255, 255, 0);
+    border-top: 10px solid rgb(69, 58, 54);
+    width: 16px;
+    height: 56px;
+    left: 16px;
+    bottom: 196px;
+}

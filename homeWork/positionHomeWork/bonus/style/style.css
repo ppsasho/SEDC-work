@@ -1,0 +1,205 @@
+body{
+    background-color: rgb(26, 26, 26);
+}
+*{
+    box-sizing: content-box;
+}
+.main-box{
+    margin-top: 5%;
+    margin-left: 5%;
+    background-color: rgb(179, 170, 170);
+    width: 600px;
+    height: 650px;
+}
+.white-box{
+    float: left;
+    position: relative;
+    background-color: rgb(229, 238, 235);
+    width: 150px;
+    height: 60px;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+}
+.beige-box{
+    float: left;
+    position: relative;
+    background-color: rgb(242, 231, 213);
+    width: 190px;
+    height: 60px;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+}
+.yellow-box{
+    float: left;
+    position: relative;
+    background-color: rgb(242, 201, 104);
+    width: 190px;
+    height: 60px;
+    border-bottom: 10px solid black;
+}
+.tall-box{
+    float: left;
+    position: relative;
+    background-color: rgb(252, 253, 231);
+    width: 40px;
+    height: 500px;
+    border-left: 10px solid black;
+}
+#white-box1{
+    float: left;
+    position: relative;
+    background-color: rgb(251, 253, 231);
+    width: 75px;
+    height: 150px;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    bottom: 430px;
+}
+
+.red-box{
+    float: left;
+    position: relative;
+    background-color: rgb(214, 45, 36);
+    width: 265px;
+    height: 310px;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    bottom: 430px;
+}
+
+#white-box2{
+    position: relative;
+    float: none;
+    top: 230px;
+    background-color: rgb(225,234,229);
+    width: 75px;
+    height: 250px;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    
+}
+.yellowy-box{
+    position: relative;
+    float: none;
+    top: 230px;
+    background-color: rgb(244, 198, 90);
+    width: 75px;
+    height: 160px;
+    border-right: 10px solid black;
+}
+#yellowy-box1{
+    position: relative;
+    float: left;
+    background-color: rgb(237, 204, 107);
+    width: 190px;
+    height: 150px;
+    border-bottom: 10px solid black;
+    left: 275px;
+
+}
+.yellowy-box1-child{
+
+    position: relative;
+    float: left;
+    background-color: rgb(223, 229, 208);
+    width: 90px;
+    height: 150px;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    top: 160px;
+}
+.yellowy-box1-child1{
+    position: relative;
+    float: left;
+    background-color: rgb(242, 238, 226);
+    width: 90px;
+    height: 150px;
+    border-bottom: 10px solid black;
+    top: 160px;
+    left: 0px;
+}
+#red-box1{
+    position: relative;
+    float: right;
+    background-color: rgb(215, 54, 48);
+    width: 40px;
+    height: 140px;
+    border-top: 10px solid black;
+    border-left: 10px solid black;
+}
+.long-box{
+    float: right;
+    position: relative;
+    background-color: rgb(224,224,223);
+    width: 320px;
+    height: 30px;
+    border-top: 10px solid black;
+    bottom: 210px;
+    right: 50px;
+}
+.bottom-left-dark{
+    position: relative;
+    background-color: rgb(19, 4, 9);
+    width: 135px;
+    height: 170px;
+    border-right: 10px solid black;
+    bottom: 30px;
+    left: 85px;
+}
+.bottom-right-white-box{
+    position: relative;
+    float: left;
+    background-color: rgb(214, 222, 224);
+    width: 190px;
+    height: 90px;
+    border-bottom: 10px solid black;
+    bottom: 250px;
+}
+.bottom-right-white-box-child{
+    position: relative;
+    float: left;
+    background-color: rgb(192, 191, 186);
+    width: 120px;
+    height: 90px;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+    right: 130px;
+}
+.bottom-right-white-box-child1{
+    position: relative;
+    float: left;
+    background-color: rgb(222, 226, 212);
+    width: 120px;
+    height: 70px;
+    border-right: 10px solid black;
+    right: 130px;
+}
+.bottom-right-blue-box{
+    position: relative;
+    float: right;
+    background-color: rgb(36,23, 133);
+    width: 190px;
+    height: 130px;
+    bottom: 70px;
+}
+.bottom-left-dark1{
+    position: relative;
+    float: bottom;
+    background-color: rgb(11, 2, 5);
+    width: 120px;
+    height: 40px;
+    border-top: 10px solid black;
+    border-right: 10px solid black;
+    left: 230px;
+    bottom: 30px;
+}
+.bottom-left-white{
+    position: relative;
+    background-color: rgb(227, 222, 217);
+    width: 135px;
+    height: 80px;
+    border-top: 10px solid black;
+    border-right: 10px solid black;
+    right: 145px;
+    bottom: 60px;
+}
