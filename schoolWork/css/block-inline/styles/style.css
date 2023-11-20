@@ -1,0 +1,57 @@
+body {
+  background-color: rgb(189, 181, 181);
+}
+
+.image-block-parapgraph {
+  width: 100px;
+}
+.block-header {
+  background-color: aqua;
+  width: fit-content;
+  height: 2em;
+  padding: 4px;
+}
+.block-paragraph {
+  background-color: blueviolet;
+  width: 50%;
+}
+.block-ordered-list {
+  background-color: cadetblue;
+}
+.block-div {
+  background-color: beige;
+  display: inline;
+}
+.inline-span {
+  background-color: burlywood;
+  width: 100px; /* won't apply unless you use display:block*/
+  height: 50px; /* won't apply unless you use display:block*/
+}
+.inline-strong {
+  background-color: cornflowerblue;
+}
+sup,
+u {
+  display: block;
+}
+.container {
+  text-align: center;
+}
+.box {
+  border: 2px ridge black;
+  background-color: rgb(88, 88, 173);
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+}
+.combined-box {
+  display: inline-block;
+}
+.test {
+  font-weight: bold;
+  color: white;
+  background-color: aquamarine;
+}
+#specific-box {
+  color: brown;
+}
