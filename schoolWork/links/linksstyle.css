@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(76, 80, 80);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: aliceblue;
+}
+
+a:visited {
+  color: white;
+  font-weight: bolder;
+}
+
+a:hover {
+  background-color: darkgreen;
+  padding: 20px;
+}
+
+a:focus {
+  color: chartreuse;
+}
+
+a:active {
+  color: rgb(207, 138, 241);
+}
