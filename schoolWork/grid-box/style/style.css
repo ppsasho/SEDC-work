@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(177, 157, 128);
+}
+.container {
+  background-color: goldenrod;
+  height: 600px;
+  width: 600px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 2fr;
+  grid-template-rows: 1fr 2fr 1fr 2fr;
+  gap: 20px;
+  padding: 10px;
+}
+
+.container > div {
+  border: 5px solid rgb(233, 207, 142);
+  padding-left: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: green;
+}
+
+.container-inline {
+  background-color: rgb(180, 197, 197);
+  height: 300px;
+  width: 300px;
+  display: inline-grid;
+}
+.container-inline > div {
+  border: 5px solid rgb(233, 207, 142);
+  padding-left: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: green;
+}
+.child1-inline {
+  width: 50px;
+}
+.child2-inline {
+  width: 200px;
+}
+.container-repeat {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  height: 300px;
+  width: 300px;
+  background-color: greenyellow;
+}
+.container-repeat > div {
+  border: 1px solid black;
+  text-align: center;
+}

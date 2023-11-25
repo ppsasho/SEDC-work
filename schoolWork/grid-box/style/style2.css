@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(177, 157, 128);
+  color: rgb(235, 13, 13);
+}
+.grid-container-justify {
+  border: 8px ridge black;
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  gap: 10px;
+  padding: 10px;
+  background-color: bisque;
+  justify-content: space-around;
+}
+.grid-container-justify > div {
+  border: 1px solid black;
+  padding: 15px;
+}
+.grid-container-align {
+  border: 8px ridge black;
+  display: grid;
+  height: 300px;
+  grid-template-rows: 50px 50px 50px;
+  grid-template-columns: 50px 50px 50px;
+  gap: 10px;
+  padding: 10px;
+  background-color: bisque;
+  align-content: center;
+  justify-content: space-between;
+}
+.grid-container-align > div {
+  border: 1px solid black;
+  padding: 15px;
+}

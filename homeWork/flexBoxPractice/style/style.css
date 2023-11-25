@@ -1,62 +1,68 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
 body {
-    background-color: rgb(26, 26, 26);
+  background-color: rgb(26, 26, 26);
 }
 .main-box {
-    background-color:rgb(240, 236, 236) ;
-    display: flex;
-    margin-top: 5%;
-    margin-left: 5%;
-    width: 475px;
-    height: 495px;
-    border: 5px solid rgb(69, 58, 54);
-    flex-direction: column;
-    flex-wrap: wrap;
+  background-color: rgb(240, 236, 236);
+  display: flex;
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 475px;
+  height: 495px;
+  border: 5px solid rgb(69, 58, 54);
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.main2 {
+  display: flex;
 }
 .grey-box {
-    background-color: rgb(254, 249, 230);
+  background-color: rgb(254, 249, 230);
 }
 .blue-box {
-    background-color: rgb(64, 156, 197);
+  background-color: rgb(64, 156, 197);
 }
 .red-box {
-    background-color: rgb(236, 73, 56);
+  background-color: rgb(236, 73, 56);
 }
 .yellow-box {
-    background-color: rgb(255, 255, 0);
+  background-color: rgb(255, 255, 0);
 }
 #box1 {
-    width: 125px;
-    height: 150px;
-    border-right: 10px solid rgb(69, 58, 54);
-    border-bottom: 10px solid rgb(69, 58, 54);
+  width: 125px;
+  height: 150px;
+  border-right: 10px solid rgb(69, 58, 54);
+  border-bottom: 10px solid rgb(69, 58, 54);
 }
 #box2 {
-    width: 125px;
-    height: 185px;
-    border-top: 10px solid rgb(69, 58, 54);
-    border-right: 10px solid rgb(69, 58, 54);
+  width: 125px;
+  height: 185px;
+  border-top: 10px solid rgb(69, 58, 54);
+  border-right: 10px solid rgb(69, 58, 54);
 }
 #box3 {
-    width: 125px;
-    height: 130px;
-    border-top: 10px solid rgb(69, 58, 54);
-    border-right: 10px solid rgb(69, 58, 54);
+  width: 125px;
+  height: 130px;
+  border-top: 10px solid rgb(69, 58, 54);
+  border-right: 10px solid rgb(69, 58, 54);
 }
 #box4 {
-    width: 340px;
-    height: 355px;
-    border-bottom: 10px solid rgb(69, 58, 54);
+  width: 340px;
+  height: 355px;
+  border-bottom: 10px solid rgb(69, 58, 54);
 }
 #box5 {
-    width: 315px;
-    height: 130px;
-    border-right: 10px solid rgb(69, 58, 54);
+  width: 315px;
+  height: 130px;
+  border-right: 10px solid rgb(69, 58, 54);
 }
 #box6 {
-    width: 15px;
-    height: 55px;
-    border-bottom: 10px solid rgb(69, 58, 54);
+  width: 15px;
+  height: 55px;
+  border-bottom: 10px solid rgb(69, 58, 54);
+}
+#box7 {
+  height: 65px;
 }
