@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+  }
+  body {
+    background-color: rgb(26, 26, 26);
+  }
+  h1{
+    color: white;
+}
+.container{
+    display: grid;
+    margin-left: 5%;
+    margin-top: 5%;
+    background-color: rgb(211, 186, 186);
+    width: 29.6875em;
+    height: 30.9375em;
+    border: 0.3125em solid rgb(69, 58, 54);
+    grid-template-rows:1 1 1 ;
+    grid-template-columns: 1 1 1;
+}
+
+.grey-box {
+    background-color: rgb(254, 249, 230);
+}
+  .blue-box {
+    background-color: rgb(64, 156, 197);
+}
+  .red-box {
+    background-color: rgb(236, 73, 56);
+}
+  .yellow-box {
+    background-color: rgb(255, 255, 0);
+}
+#item1 {
+    width: 7.8125em;
+    height: 9.375em;
+    border-right: 0.625em solid rgb(69, 58, 54);
+    border-bottom: 0.625em solid rgb(69, 58, 54);
+}
+#item2 {
+    width: 7.8125em;
+    height: 11.5625em;
+    border-top: 0.625em solid rgb(69, 58, 54);
+    border-right: 0.625em solid rgb(69, 58, 54);
+}
+#item3 {
+    width: 7.8125em;
+    height: 8.125em;
+    border-right: 0.625em solid rgb(69, 58, 54);
+    border-top: 0.625em solid rgb(69, 58, 54);
+}
+#item4{
+    width: 21.25em;
+    height: 22.1875em;
+    border-bottom: 0.625em solid rgb(69, 58, 54);
+}
