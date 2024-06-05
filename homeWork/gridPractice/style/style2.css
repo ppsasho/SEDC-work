@@ -1,44 +1,46 @@
 body {
-    background-color: rgb(179, 173, 152);
+  background-color: rgb(179, 173, 152);
+  margin: 0;
 }
-div{
-    text-align: center;
-    font-size: x-large;
-    font-weight: bolder;
-    color: azure;
+div {
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+  color: azure;
 }
 
 .container {
-    border: 5px outset rgb(14, 27, 71);
-    display: grid;
-    grid-template-rows: 0.5fr 0.3fr 2fr 0.2fr;
-    grid-template-areas: 'home home home home home'
-                         'nav nav nav nav nav'
-                         'menu main main main main'
-                         'footer footer footer footer footer';
-    width: 80vw;
-    height: 80vh;
+  border: 5px outset rgb(14, 27, 71);
+  display: grid;
+  grid-template-rows: 0.2fr 0.3fr 2fr 0.2fr;
+  grid-template-areas:
+    "home home home home home"
+    "nav nav nav nav nav"
+    "menu main main main main"
+    "footer footer footer footer footer";
+  width: 100vw;
+  height: 100vh;
 }
 .inset {
-    border: 5px inset black;
+  border: 5px inset black;
 }
 #item1 {
-    grid-area: home;
-    background-color: brown;
+  grid-area: home;
+  background-color: brown;
 }
 #item2 {
-    grid-area: nav;
-    background-color: darkcyan;
+  grid-area: nav;
+  background-color: darkcyan;
 }
 #item3 {
-    grid-area: menu;
-    background-color: darkkhaki;
+  grid-area: menu;
+  background-color: darkkhaki;
 }
 #item4 {
-    grid-area: main;
-    background-color: dodgerblue;
+  grid-area: main;
+  background-color: dodgerblue;
 }
 #item5 {
-    grid-area: footer;
-    background-color: hotpink;
+  grid-area: footer;
+  background-color: hotpink;
 }
